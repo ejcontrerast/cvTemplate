@@ -14,13 +14,14 @@ export const RESUME_DATA = {
   location: "Kelowna, British Columbia, V1Y 5T6",
   locationLink: "https://maps.app.goo.gl/K56a49byY4nxxu2B7",
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+    "Detail-oriented Front-End Web Devoleper and Data Analyst dedicated to building high-quality products.",
   summary: (
     <>
-      Frontend-focused Full Stack Engineer specializing in high-performance
-      React applications, scalable Node.js services, and real-time collaboration
-      systems. Experienced in technical architecture design and remote team
-      leadership.
+      Front-End Web Developer and Data Analyst specializing in creating 
+      high-quality, user-centric applications and data-driven solutions. 
+      Experienced in managing large-scale data operations, optimizing 
+      real-time systems, and enhancing operational efficiency. 
+      Proven ability to deliver precise, impactful results in fast-paced environments.
     </>
   ),
   avatarUrl: "",
