@@ -7,6 +7,7 @@ import { Education } from "./components/Education";
 import { Summary } from "./components/Summary";
 import { Skills } from "./components/Skills";
 import { Header } from "./components/Header";
+import { VolunteerExperience } from "./components/VolunteerExp";
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} - Resume`,
@@ -72,6 +73,7 @@ export default function ResumePage() {
         <Header />
 
         <div className="space-y-8 print:space-y-4">
+          
           <Summary summary={RESUME_DATA.summary} /> 
 
           <Projects projects={RESUME_DATA.projects} />
@@ -81,6 +83,8 @@ export default function ResumePage() {
           <Education education={RESUME_DATA.education} />
 
           <WorkExperience work={RESUME_DATA.work} />
+
+          <VolunteerExperience volunteer={RESUME_DATA.volunteer} />
 
         </div>
       </section>

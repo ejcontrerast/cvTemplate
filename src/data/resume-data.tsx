@@ -24,7 +24,7 @@ export const RESUME_DATA = {
       Proven ability to deliver precise, impactful results in fast-paced environments.
     </>
   ),
-  avatarUrl: "",
+  avatarUrl: "https://raw.githubusercontent.com/ejcontrerast/emailSignature/main/public/email-image.png",
   personalWebsiteUrl: "https://ecdev.tech",
   contact: {
     email: "ejcontrerast@outlook.com",
@@ -127,6 +127,22 @@ export const RESUME_DATA = {
       ),
     }
   ],
+  volunteer: [
+    {
+      company: "Kelowna General Hospital | Kelowna, BC",
+      link: "https://www.interiorhealth.ca/locations/kelowna-general-hospital",
+      badges: [""],
+      title: "Information Desk",
+      logo: null,
+      start: "2022",
+      end: null,
+      description: (
+        <>
+          Supported patients and families in the ICU and at the Information Desk by providing clear, compassionate guidance and directions throughout Kelowna General Hospital, ensuring a more comfortable and stress-free experience during their visits.
+        </>
+      ),
+    }
+  ],
   skills: [
     "React",
     "TypeScript",
@@ -138,7 +154,7 @@ export const RESUME_DATA = {
   projects: [
     {
       title: "MineSweeper",
-      techStack: ["Vite", "TypeScript", "React", "Tailwind"],
+      techStack: ["Vite", "TypeScript", "React", "Tailwind CSS"],
       description:
         "Minesweeper game with customizable grid size, mine count, and timer. Features include flagging mines, revealing cells, and game status tracking.",
       link: {
@@ -147,20 +163,19 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Something Soon",
+      title: "Algorithm Visualizer",
       techStack: [
         "Vite",
         "TypeScript",
         "React",
-        "Node.js",
         "Tailwind CSS"
       ],
       description:
-        "Platform for online consultations with real-time video meetings and scheduling",
-      logo: ConsultlyLogo,
+        "Platform for online visualizations and simulations of popular algorithms. Features include customizable speed, step-by-step execution, and real-time visualization. With code in Python and JavaScript.",
+      logo: null,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "",
+        href: "https://github.com/ejcontrerast/visual-algorithms",
       },
     }
   ],
